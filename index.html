@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" href="logo.svg" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<title>PWI - 3</title>
+</head>
+<body>
+	<div class="page">
+		<div class="top-header">
+			<span>Masz pytania?</span>
+			<span class="phone-top"> <a href="tel:+48123456789">+48 123 456 789</a></span> 
+			<span class="mail-top"> <a>kontakt@pwi.sggw.pl</a></span>
+		</div>
+		<div class="header">
+			<img src="logo.svg" alt="logo" class="logo">
+			<div class="navbar">
+				<ul class="navbarlist">
+					<li class="navbarlistelem navbarlistelem--active">
+						<a href="">Strona główna</a>
+					</li>
+					<li class="navbarlistelem">
+						<a href="">O nas</a>
+					</li>
+					<li class="navbarlistelem">
+						<a href="">Kontakt</a>
+					</li>
+				</ul>	
+			</div>
+		</div>
+		<div class="main">
+			<h2 style="text-align: center;">Main</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+			</p>
+		</div>
+		<div class="aside aside1">
+			<h2>Kółko i krzyżyk</h2>
+			<button onClick="handler(false)">1 vs 1</button>
+    		<button onClick="handler(true)">1 vs AI</button>
+    		<button onClick="startGame()">Reset</button>
+			<table>
+				<tr>
+					<td class="cell" id="0"></td>
+					<td class="cell" id="1"></td>
+					<td class="cell" id="2"></td>
+				</tr>
+				<tr>
+					<td class="cell" id="3"></td>
+					<td class="cell" id="4"></td>
+					<td class="cell" id="5"></td>
+				</tr>
+				<tr>
+					<td class="cell" id="6"></td>
+					<td class="cell" id="7"></td>
+					<td class="cell" id="8"></td>
+				</tr>
+			</table>
+			<div class="endgame">
+				<div class="text"></div>
+			</div>
+		</div>
+		<div class="aside aside2">
+			<h2>Artykuł 2</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+			</p>
+		</div>
+		<div class="aside aside3">
+			<h2>Artykuł 3</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+			</p>
+		</div>
+		<div class="footer">
+			<h3>Stopka</h3>
+		</div>
+	</div>
+	<script src="scripts.js"></script>
+</body>
+</html>
+
+
